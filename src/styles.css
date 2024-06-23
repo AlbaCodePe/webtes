@@ -1,0 +1,41 @@
+/* Custom Theming for Angular Material */
+/* Import Angular Material core styles */
+/* This would typically be done in your main stylesheet or index.html */
+
+/* Define primary, accent, and warn colors */
+:root {
+  --enduser-primary: #3f51b5; /* Indigo */
+  --enduser-accent: #e91e63; /* Pink */
+  --enduser-warn: #f44336; /* Red */
+}
+
+/* Apply the theme colors */
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+/* Include theme styles for core and each component used in your app */
+/* This is a simplified version; in reality, you would need to manually include styles for each Angular Material component */
+
+/* Tailwind CSS base, components, and utilities */
+/* These would typically be included via a <link> tag or imported into your main stylesheet */
+
+/* ngx-toastr styles */
+/* This would typically be included via a <link> tag or imported into your main stylesheet */
+
+/* General styles */
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* Note: For full functionality of Angular Material and Tailwind CSS, 
+   you need to include their respective stylesheets properly. 
+   Angular Material theming and Tailwind CSS require preprocessing 
+   which cannot be directly translated to plain CSS. */
+
